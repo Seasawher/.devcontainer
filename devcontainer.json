@@ -1,0 +1,21 @@
+{
+    "name": "${ NAME }",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "${ SERVICE }",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "editor.formatOnSave": true,
+                "editor.insertSpaces": true,
+                "files.eol": "\n",
+                "files.trimTrailingWhitespace": true
+            },
+            "extensions": [
+                "mhutchie.git-graph",
+                "eamodio.gitlens",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
+    }
+}
