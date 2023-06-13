@@ -11,8 +11,8 @@ services:
       - type: bind
         source: ..
         target: /workspace
-    ports:
-      - 3000:3000
-    command: echo "Hello World!"
+    #ports:
+    #  - 3000:3000
+    # command: 
     tty: true
     stdin_open: true
