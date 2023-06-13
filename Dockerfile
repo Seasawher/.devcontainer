@@ -1,4 +1,4 @@
-FROM baseImage:version-tag
+FROM basemage:version-tag
 
 WORKDIR /workspace
 
