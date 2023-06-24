@@ -1,17 +1,17 @@
 {
-    "name": "${containerWorkspaceFolder}",
-    "dockerComposeFile": "./docker-compose.yml",
-    "service": "devcontainer",
-    "workspaceFolder": "/workspace",
-    "customizations": {
-        "vscode": {
-            "settings": {
-                "editor.formatOnSave": true,
-                "editor.insertSpaces": true,
-                "files.eol": "\n",
-                "files.trimTrailingWhitespace": true
-            },
-            "extensions": []
-        }
+  "name": "${containerWorkspaceFolder}",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.formatOnSave": true,
+        "files.trimTrailingWhitespace": true
+      },
+      "extensions": [
+        "editorconfig.editorconfig"
+      ]
     }
+  }
 }

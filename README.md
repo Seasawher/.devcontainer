@@ -12,4 +12,4 @@
 git clone https://github.com/Seasawher/devcontainer-examples.git && rm -rf devcontainer-examples/.git
 ```
 
-必要なものだけ残して，後は削除します．
+必要なものだけ残して，後は削除します．もしも `.editorconfig` ファイルが必要なら，残してください．

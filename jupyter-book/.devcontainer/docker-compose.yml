@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  jupyter_book:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - type: bind
+        source: ..
+        target: /workspace
+    tty: true
+    stdin_open: true
