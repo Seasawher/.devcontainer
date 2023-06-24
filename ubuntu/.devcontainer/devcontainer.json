@@ -1,7 +1,7 @@
 {
-    "name": "${ NAME }",
+    "name": "${containerWorkspaceFolder}",
     "dockerComposeFile": "./docker-compose.yml",
-    "service": "${ SERVICE }",
+    "service": "devcontainer",
     "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
@@ -11,11 +11,7 @@
                 "files.eol": "\n",
                 "files.trimTrailingWhitespace": true
             },
-            "extensions": [
-                "mhutchie.git-graph",
-                "eamodio.gitlens",
-                "ms-azuretools.vscode-docker"
-            ]
+            "extensions": []
         }
     }
 }
